@@ -6,11 +6,7 @@
     
 }
 
-body{
-    background-color: white;
-    margin : 0px;
-    padding:0px;
-}
+
 
 nav{
     display:flex;
@@ -120,4 +116,12 @@ nav{
 }
 .togglex .line3{
     transform:rotate(45deg) translate(-5px,-6px);
+}
+
+
+.webBody{
+    /* display:flex; */
+    width: 70%;
+    margin:auto;
+    min-height: 80vh;
 }
