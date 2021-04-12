@@ -12,8 +12,9 @@ nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    /* margin-top: 50px; */
     min-height: 8vh;
-    background-color: #143b30;
+    background-color: #113d47;
     font-family: 'Poppins',  sans-serif;
 }
 
@@ -121,7 +122,22 @@ nav{
 
 .webBody{
     /* display:flex; */
-    width: 70%;
+    width: 65%;
     margin:auto;
     min-height: 80vh;
+    line-height: 200%;
+    padding-top: 25px;
+}
+
+li {
+    margin-left: 5px; 
+    padding-left: 5px;
+}
+
+ul {
+    list-style-position: inside;
+  }
+
+h3 {
+    margin-top: 20px;
 }
